@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,18 +8,20 @@
     text-decoration: none;
     scroll-behavior: smooth;
     scroll-padding-top: 2rem;
-    
+
 }
+
 :root {
-    --main-color:#033a80;
+    --main-color: #033a80;
     --bg--color: #FFF;
-    --text-color:#0f0c27;
+    --text-color: #0f0c27;
     --hover: hsl(260, 100%, 51%);
     --big-font: 3.2rem;
     --medium-font: 1.8rem;
-    -p--font: 0.9rem;
+    --p-font: 0.9rem;
     font-family: 'Poppins', sans-serif;
 }
+
 section {
     padding: 50px 10%;
 }
@@ -27,10 +30,12 @@ body {
     background: var(--bg--color);
     color: var(--text-color);
 }
+
 *::selection {
     background: var(--main-color);
     color: var(--bg--color);
 }
+
 header {
     position: fixed;
     width: 100%;
@@ -43,4 +48,90 @@ header {
     padding: 13px 10%;
     transition: 0.2s;
     box-shadow: -3px -4px 8px #ffffff73, 2px 2px 5px #16151563;
-} 
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.navbar {
+    display: flex;
+
+}
+
+.navbar a {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: var(--hover);
+}
+
+#menu-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+#darkmode {
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 1fr;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.home-img {
+    order: 3;
+}
+
+.home-img img {
+    width: 100%;
+}
+
+.home-text span {
+    font-size: var(--medium-font);
+    font-weight: 500;
+}
+
+.home-text h1 {
+    font-size: var(--big-font);
+}
+
+.home-text h2 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.home-text p {
+    font-size: var(--p-font);
+    margin: 0.7rem 0 1rem;
+    font-weight: 400;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+}
+
+.social a {
+    margin-bottom: 1rem;
+    font-size: 25px;
+    color: var(--text-color);
+}
+
+.social a:hover {
+    color: var(--hover);
+}
