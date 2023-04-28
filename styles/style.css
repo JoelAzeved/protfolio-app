@@ -116,7 +116,7 @@ footer .social-box {
 .home-img {
     display: flex;
     order: 3;
-    align-items: end;
+    justify-content: center;
 }
 
 .home-img img {
@@ -305,7 +305,7 @@ footer .social-box {
     }
     .home-img {
         order: initial;
-        justify-content: end;
+        
     }
     .about-container {
         display: flex; 
