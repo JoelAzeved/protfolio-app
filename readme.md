@@ -1,4 +1,4 @@
-# primeiro portfolio !
+# Iniciando portfolio
 
 
-![Alt text](assets/Aula2-img3.gif) / ![](assets/Aula2-img3.gif)
+![Alt text](assets/Aula2-img3.gif) 
