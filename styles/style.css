@@ -70,7 +70,7 @@ footer .social-box {
 
 
 .logo {
-    font-size: 1.6rem;
+    font-size: 1.75rem;
     font-weight: 600;
     color: var(--text-color);
 }
@@ -114,11 +114,13 @@ footer .social-box {
 }
 
 .home-img {
+    display: flex;
     order: 3;
+    align-items: end;
 }
 
 .home-img img {
-    width: 75%;
+    width: 55%;
     border-radius: 10px;
 }
 
@@ -283,6 +285,8 @@ footer .social-box {
         padding: 1.5rem;
         display: block;
         background: var(--bg--color);
+        width: 80%;
+        text-align: start;
     }
     #darkmode {
         position: absolute;
@@ -301,6 +305,7 @@ footer .social-box {
     }
     .home-img {
         order: initial;
+        justify-content: end;
     }
     .about-container {
         display: flex; 
