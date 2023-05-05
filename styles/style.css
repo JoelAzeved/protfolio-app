@@ -90,6 +90,9 @@ footer .social-box {
 .navbar a:hover {
     color: var(--hover);
 }
+.bx-desktop:hover {
+    color: var(--hover);
+}
 
 #menu-icon {
     font-size: 1.5rem;
